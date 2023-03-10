@@ -1,0 +1,6 @@
+(executables
+ (names main)
+ (libraries bonsai.web)
+ (modes js)
+ (preprocess
+  (pps ppx_jane)))
